@@ -1,5 +1,7 @@
 import { Server } from "socket.io";
 
+const rooms = {};
+
 const io = new Server({
   cors: {
     origin: "*",
@@ -64,4 +66,3 @@ io.on("connection", (socket) => {
     }
   });
 });
-
