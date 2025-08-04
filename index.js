@@ -4,7 +4,7 @@ const rooms = {};
 
 const io = new Server({
   cors: {
-    origin: "https://willemhelmet.github.io/crdt-voxels/",
+    origin: "https://willemhelmet.github.io",
     methods: ["GET", "POST"],
   },
 });
